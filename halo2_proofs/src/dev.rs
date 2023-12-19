@@ -38,6 +38,9 @@ pub use failure::{FailureLocation, VerifyFailure};
 pub mod cost;
 pub use cost::CircuitCost;
 
+pub mod simple_cost;
+pub use simple_cost::SimpleCircuitCost;
+
 mod gates;
 pub use gates::CircuitGates;
 
